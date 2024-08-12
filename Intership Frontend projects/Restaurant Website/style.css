@@ -15,7 +15,7 @@ nav {
     position: sticky;
     top: 0;
     margin-bottom: 32px;
-    background: white;
+    background:white;
     padding: 10px;
     z-index: 50;
   }
@@ -25,7 +25,7 @@ nav {
   }
   .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;;
   }
   .navigation{
     display: flex;
@@ -46,7 +46,7 @@ nav {
   .tag{
     background-color: #149f39;
     padding: 5px 10px;
-    color: white;
+    color:black;
     align-self: flex-start;
   }
 .hero_content h1 {
@@ -173,6 +173,193 @@ button{
     gap: 15px;
     font-size: 32px;
   }
+  /* Default Light Theme Styles */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+    background-color: white;
+}
+
+footer {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Dark Theme Styles */
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+nav.dark-theme {
+    background-color: #1c1c1c;
+}
+
+footer.dark-theme {
+    background-color: #1c1c1c;
+}
+
+button.dark-theme {
+    background-color: #555;
+    color: white;
+}
+
+/* Feature Section Dark Theme */
+.features.dark-theme {
+    background-color: #222;
+}
+
+.feature.dark-theme {
+    background-color: #333;
+}
+
+.feature_content.dark-theme {
+    color: white;
+}
+
+/* Divider Dark Theme */
+.divider.dark-theme {
+    border-color: #555;
+}
+
+/* Menu Dark Theme */
+.menu .tag.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer Dark Theme */
+.link_lists.dark-theme h3,
+.link_lists.dark-theme ul li,
+.news_letter.dark-theme h3 {
+    color: white;
+}
+
+.news_letter.dark-theme input {
+    background-color: #333;
+    color: white;
+}
+
+.icon_container.dark-theme i {
+    color: white;
+}
+
+@media (max-width: 786px) {
+  /* Additional dark theme media queries if needed */
+  body.dark-theme {
+    background-color: #121212;
+  }
+
+  .hero.dark-theme {
+    background-color: #1a1a1a;
+  }
+}
+/* Default Light Theme Styles */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+  background-color: white;
+}
+
+footer {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Dark Theme Styles */
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+nav.dark-theme {
+  background-color: #1c1c1c;
+}
+
+footer.dark-theme {
+  background-color: #1c1c1c;
+}
+
+button.dark-theme {
+  background-color: #555;
+  color: white;
+}
+
+/* Feature Section Dark Theme */
+.features.dark-theme {
+  background-color: #222;
+}
+
+.feature.dark-theme {
+  background-color: #333;
+}
+
+.feature_content.dark-theme {
+  color: white;
+}
+
+/* Divider Dark Theme */
+.divider.dark-theme {
+  border-color: #555;
+}
+
+/* Menu Dark Theme */
+.menu .tag.dark-theme {
+  background-color: #333;
+  color: white;
+}
+
+/* Footer Dark Theme */
+.link_lists.dark-theme h3,
+.link_lists.dark-theme ul li,
+.news_letter.dark-theme h3 {
+  color: white;
+}
+
+.news_letter.dark-theme input {
+  background-color: #333;
+  color: white;
+}
+
+.icon_container.dark-theme i {
+  color: white;
+}
+
+@media (max-width: 786px) {
+/* Additional dark theme media queries if needed */
+body.dark-theme {
+  background-color: #121212;
+}
+
+.hero.dark-theme {
+  background-color: #1a1a1a;
+}
+}
+
   @media (max-width: 786px) {
     .hero {
       flex-direction: column;
